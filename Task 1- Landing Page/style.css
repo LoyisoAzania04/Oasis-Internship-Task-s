@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline:none;
+    border:none;
+    text-decoration: none;
+
+}
+body{
+    display: block;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+.header{
+    position: relative;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 1;
+    padding: 0 2.5rem;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+.btn{
+    display: inline-block;
+    margin-top:1rem;
+    border-radius: 5rem;
+    background-color: #09815d;
+    color: #fff;
+    padding: 1rem;
+    cursor:pointer;
+    font-size: 1.7rem;
+    margin: 1.5rem 0 1.4rem;
+    font-size: small;
+}
+
+.btn:hover{
+    background-color: rgb(119, 248, 199);
+}
+.logo-img{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width:150px;
+    cursor:pointer;
+}
+.location-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin-top: 20px; 
+    display: inline-block;
+    margin-top:1rem;
+    border-radius: 5rem;
+    background-color: #09815d;
+    color: #fff;
+    padding: 1rem;
+    cursor:pointer;
+    font-size: 1.7rem;
+    margin: 1.5rem 0 1.4rem;
+    font-size: small;
+    width: 15rem;
+    text-align: center;
+}
+.location-btn:hover{
+    background-color: rgb(119, 248, 199);
+}
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:vh;
+   background: url(images/imagestar.jpg)no-repeat;
+    background-size:cover;
+    background-position:center;
+    object-fit: contain;
+    height: 95vh;
+}
+.starbucks-content{
+    text-align: center;
+}
+section{
+    padding: 50px 10%;
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+.starbucks-content  h1{
+    font-family: serif;
+   font-size: 4.7rem;
+  color:rgb(41, 116, 6);
+  font-weight:800;
+  margin: 0.5rem 0 1.4rem;
+
+}
+
+.social li{
+    display: inline-block;
+    margin-right: 1.5em;
+    align-items: center;
+}
+
+.social a{
+    font-size: 1.5em;
+    color:darkgreen;
+
+}
+
+.social a:hover {
+    color:rgb(119, 248, 199);
+ 
+}
+.info{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding: -2rem;
+}
+
+.block1{
+    display:flex;
+    gap:2rem;
+    margin-top: 5rem;
+}
+div{
+    display:block;
+
+}
+.starbucksimage{
+    width: 25rem;
+    height:25rem;
+    margin: 5rem 0 1.4rem;
+
+}
+
+.starbucksimage img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.starbuckscontent h3{
+    font-size: xx-large;
+    font-size: 2.5rem;
+    color:rgb(3, 80, 48);
+    font-family: serif;
+    font-weight: bolder;
+    margin: 7.5rem 0 1.4rem;
+}
+.starbuckscontent p{
+    font-size:1.5rem;
+}
+.starbucks-content span{
+    color:#031b14;
+}
+
+.starbuckscontent.btn{
+    margin-top: 0.625rem;
+    padding: 7px 20px;
+}
+
+.block2{
+    display: flex;
+    gap:2rem;
+    margin-top: 5rem;
+}
+.block3{
+   display:flex;
+   gap:2rem;
+   margin-top:5rem ;
+}
+
+.link{
+    text-align: center;
+    padding-left: 0.2rem;
+    display: block;
+    margin: 3.5rem 0 1.4rem;
+  
+}
+
+.last-link {
+    color: #09815d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    display: block; 
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 0 auto; 
+    max-width: fit-content; 
+}
+.last-link:hover{
+    color :rgb(119, 248, 199);
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.image{
+    margin-top:1rem;
+    
+}
+.side div span
+{
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+  margin: 0.5rem 0 1.4rem;
+    
+}
+.heading span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.heading h1{
+    font-size: 3rem;
+    color:#09815d;
+}
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 5rem;
+    background-color: rgb(185, 241, 185);
+}
+.shop-container .box{
+    flex: 1 1 10rem;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+    border-radius: 0.5rem; 
+}
+.shop-container .box .box-img{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    border-radius:3px ;
+}
+.shop-container .box .box-img img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius:10px ;
+}
+
+.shop-container .box  h2{
+    color: #031b14;
+    font-size: 1.2rem;
+}
+.shop-container .box span{
+    color:#09815d;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin: 0.2rem 0 0.5rem;
+}
+.box .btn{
+    border: 2px solid #ebdbc8;
+    color: #ebdbc8;
+}
+
+.box .btn:hover{
+    color:#031b14;
+}
+.footer {
+    margin-top: 6rem;
+    height: 400px;
+    background: url("images/mapimg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8rem 10rem ;
+    background-color: rgb(193, 253, 196);
+    flex-direction: column;
+    justify-content: center;
+    position: relative; /* Added positioning */
+}
+.footer h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: rgb(4, 136, 81)
+}
+
+.footer h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.footer p {
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color: rgb(4, 136, 81);
+    text-align: center;
+    align-self: flex-end;
+
+}
+
+.footer .side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer .side div {
+    width: 8rem;
+    text-align: left;
+    color:rgb(58, 57, 57);
+
+}
+
+.footer .side  div span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:rgb(58, 57, 57);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        height: auto; 
+        padding: 4rem; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px; 
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        height: auto; /* Adjust height for smaller screens */
+        padding: 4rem; /* Adjust padding for smaller screens */
+    }
+}
