@@ -30,6 +30,5 @@ Task 3- Temperature Converter
   -This app is focused on using JavaScript To ensure that conversion process is done accurately and some CSS is applied to make the it look more appealing.
 
 - Below is the link to the Demo Video
-
 https://drive.google.com/file/d/1zxO4ECcK4H-JzuRRt5if_tOP3v8bdREt/view?usp=sharing
 
