@@ -9,6 +9,7 @@ Task 2: Person Portfolio WebPage
 
 Task 3: Temperature Converter App
 
+---------------------------------------------------------------------------------------------------------------------------------
 
 Task 1 - Starbucks Landing page:
 
